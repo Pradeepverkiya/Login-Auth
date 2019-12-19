@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/pagename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:text="Login"
+            android:textColor="@color/textviewcolor"
+            android:textSize="40dp" />
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pagename"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="Log in your personalized search results,the best deals in the industry"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/text"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Email"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/edtEmail"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:background="@drawable/edittext_background"
+            android:hint="Password"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/forgetPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtPassword"
+            android:layout_centerHorizontal="true"
+            android:text="Forget Password"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/forgetPassword"
+            android:layout_margin="30dp"
+            android:background="@color/textviewcolor"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="#FFFF" />
+
+        <TextView
+            android:id="@+id/orloginwith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnLogin"
+            android:layout_centerHorizontal="true"
+            android:text="Or log in with"
+            android:textColor="@color/textviewcolor"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:id="@+id/secoundlast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orloginwith"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/facebook" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/igoogleplus" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/secoundlast"
+            android:text="Are you new to businessclass.com" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/last"
+            android:text="Sign up" />
+
+    </RelativeLayout>
+
+</LinearLayout>

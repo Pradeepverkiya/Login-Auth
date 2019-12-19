@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2B2B2B</color>
+    <color name="colorPrimaryDark">#2B2B2B</color>
+    <color name="colorAccent">#2B2B2B</color>
+    <color name="editextbackground">#585858</color>
+    <color name="textviewcolor">#2B2B2B</color>
+    <color name="background">#DDF5F2F2</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>
